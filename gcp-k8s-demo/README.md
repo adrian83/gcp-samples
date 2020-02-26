@@ -10,3 +10,6 @@
 9. Create Load Balancer: `kubectl apply -f 08-echo-loadbalancer.yml`
 10. Create Ingres: `kubectl apply -f 05-echo-ingres.yml`
 99. Cleanup: `delete cluster gcloud deployment-manager deployments delete k8s-demo`
+
+### Info
+1. Make sure that deployed image has health check on root `\` that returns status 200.
