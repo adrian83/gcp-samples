@@ -1,0 +1,12 @@
+
+
+
+resources:
+
+- name: cluster
+  type: container.v1.cluster
+  properties:
+    zone: europe-north1-c      # Finland
+    cluster:
+      description: "k8s-demo cluster"
+      initialNodeCount: 2
